@@ -1,0 +1,33 @@
+{
+  "name": "practice_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IzarlyShark/Practice_3.git"
+  },
+  "author": "Eseniya Sulakova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IzarlyShark/Practice_3/issues"
+  },
+  "homepage": "https://github.com/IzarlyShark/Practice_3#readme",
+  "devDependencies": {
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "babel-jest": "^29.7.0",
+    "eslint": "^9.3.0",
+    "eslint-plugin-jest": "^28.5.0",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  }
+}
