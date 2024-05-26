@@ -29,5 +29,9 @@
     "transform": {
       "^.+\\.js$": "babel-jest"
     }
+  },
+  "dependencies": {
+    "glob": "^10.4.1",
+    "rimraf": "^5.0.7"
   }
 }
