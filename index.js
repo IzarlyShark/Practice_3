@@ -10,4 +10,5 @@ function fibonachi(n){
     return arr;
 }
 
+console.log(fibonachi(8)); //для проверки в терминале node index.js
 export default fibonachi;
