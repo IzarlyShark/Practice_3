@@ -1,6 +1,9 @@
 # Practice_3
 
 ## Практическая работа №3 (GitHub Actions)
+### Бейдж
+
+[![Lint and Test](https://github.com/IzarlyShark/Practice_3/actions/workflows/workflows.yml/badge.svg)](https://github.com/IzarlyShark/Practice_3/actions/workflows/workflows.yml)
 
 Файл index.js содержит функцию fibonachi(n), которая генерирует последовательность чисел Фибоначчи до n-го элемента. Функция заполняет массив числами Фибоначчи и возвращает этот массив.
 Для проверки в терминале: node index.js
@@ -37,11 +40,5 @@ GitHub Actions настроены для выполнения следующих
 
 - make lint: Запускает линтер.
 - make test: Запускает тесты.
-
----
-
-### Бейдж
-
-[![Lint and Test](https://github.com/IzarlyShark/Practice_3/actions/workflows/workflows.yml/badge.svg)](https://github.com/IzarlyShark/Practice_3/actions/workflows/workflows.yml)
 
 ---
