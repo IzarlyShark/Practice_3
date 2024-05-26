@@ -13,11 +13,11 @@
 
 1. Клонируйте репозиторий на локальную машину:
 
-git clone https://github.com/ваш_репозиторий.git
+git clone git@github.com:IzarlyShark/Practice_3.git
 
 2. Установите зависимости:
 
-npm install
+make install
 
 ---
 
@@ -38,6 +38,7 @@ GitHub Actions настроены для выполнения следующих
 
 ### Команды
 
+- make install - Устанавливает зависимости.
 - make lint: Запускает линтер.
 - make test: Запускает тесты.
 
